@@ -1,0 +1,24 @@
+body{
+    background-color: #3B5998;
+}
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.kast{
+    width: 50px;
+    padding: 250px;
+    margin: 0;
+    background-color: white;
+}
+
+.flex-container{
+    display: compact;
+    flex-direction: column;
+    height: 10px;
+    align-items: stretch;
+    align-content: space-evenly;
+}

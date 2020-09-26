@@ -16,9 +16,25 @@ body{
 
 .flex-container{
     display: flex;
-    height: 600px;
+    height: 150px;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
+}
+.flex-pilt{
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: start;
+}
+.input{
+
+}
+h::first-line{
+    font-variant:all-petite-caps;
+
 }

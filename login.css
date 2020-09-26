@@ -1,6 +1,9 @@
 body{
     background-color: #3B5998;
 }
+* {
+    font-family: "Andale Mono"
+}
 .centered {
     position: fixed;
     top: 50%;
@@ -32,8 +35,19 @@ body{
     align-items: start;
 }
 .input{
+    color: cyan;
+}
+
+#login {
+    background-color: darkblue;
+    color: whitesmoke;
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 4px;
+
 
 }
+
 h::first-line{
     font-variant:all-petite-caps;
 

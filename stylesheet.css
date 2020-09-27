@@ -21,6 +21,9 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-color: cornsilk;
+    font-size: 10px;
+    font-family: "Andale Mono";
     background-color: lightgray;
     box-shadow: 0 4px 6px #000;
 }
@@ -33,6 +36,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+#avatar {
+    width: 40px;
 }
 
 #profile {
@@ -54,5 +60,5 @@ body {
 }
 
 .fa:hover {
-    color: darkblue;
+    color: cornflowerblue;
 }

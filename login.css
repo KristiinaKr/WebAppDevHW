@@ -4,22 +4,28 @@ body{
 * {
     font-family: "Andale Mono"
 }
+/*
 .centered {
     position: fixed;
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
+    /* bring your own prefixes 
     transform: translate(-50%, -50%);
 }
+*/
+
 .kast{
-    width: 250px;
-    padding: 250px;
+    position: fixed;
+    width: 380px;
+    padding: 50px;
     background-color: white;
+    top: 10%;
+    left: 30%;
 }
 
 .flex-container{
     display: flex;
-    height: 150px;
+    height: 350px;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;

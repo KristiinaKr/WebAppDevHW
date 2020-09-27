@@ -1,13 +1,22 @@
-body{
+body {
     background-color: #3B5998;
 }
 
-.flex-container > img {
-    width: 500px;
+.taust {
+    position: fixed;
+    width: 600px;
+    padding: 100px;
+    background-color: white;
+    top: 10%;
+    left: 20%;
 }
 
 .flex-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.flex-container > img {
+    width: 500px;
 }

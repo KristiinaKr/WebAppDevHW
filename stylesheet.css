@@ -1,5 +1,6 @@
 body {
     background-color: #3B5998;
+    margin: auto;
 }
 
 .taust {
@@ -19,4 +20,20 @@ body {
 
 .flex-container > img {
     width: 500px;
+}
+.time{
+    alignment: right;
+    vertical-align: top;
+    font-family: sans-serif;
+    color: black;
+}
+
+.fa {
+    font-size: 100px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fa:hover {
+    color: darkblue;
 }

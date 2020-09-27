@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="stylesheet.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
@@ -11,9 +11,28 @@
 <body>
     <div class="taust">
         <div class="flex-container">
+            <div class="time">
+                <time datetime='2014-06-12'></time>
+            </div>
             <img src="thunder.jpg">
+            <h1 align="right">I really like this picture</h1>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+            <img src="thunder.jpg">
+            <h1 align="right">I really like this picture too</h1>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+            <img src="thunder.jpg">
+            <h1>I really like this picture</h1>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+            <img src="thunder.jpg">
+            <h1>I really like this picture</h1>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
         </div>
     </div>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("fa-thumbs-down");
+        }
+    </script>
 </body>
 
 </html>

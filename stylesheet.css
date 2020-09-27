@@ -5,8 +5,9 @@ body {
 
 
 .taust {
-    position: fixed;
+    position: relative;
     width: 600px;
+    height: 600px;
     padding: 100px 100px;
     background-color: white;
     top: 10%;
@@ -20,7 +21,7 @@ body {
 }
 
 .flex-container > img {
-    width: 500px;
+    width: 400px;
 }
 .time{
     alignment: right;

@@ -3,17 +3,18 @@ body {
     margin: auto;
 }
 
+
 .taust {
     position: fixed;
     width: 600px;
-    padding: 100px;
+    padding: 100px 100px;
     background-color: white;
     top: 10%;
     left: 20%;
 }
 
 .flex-container {
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: flex-start;
 }

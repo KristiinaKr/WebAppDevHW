@@ -3,6 +3,9 @@ body {
     margin: auto;
 }
 
+* {
+    font-family: "Andale Mono"
+}
 
 .taust {
     position: relative;
@@ -18,12 +21,25 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: cornsilk;
+    background-color: lightgray;
+    box-shadow: 0 4px 6px #000;
 }
 
 .flex-container > img {
-    width: 400px;
+    width: 100%;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#profile {
+    width: 50px;
+    border-radius: 50%;
+}
+
 .time{
     alignment: right;
     vertical-align: top;
